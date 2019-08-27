@@ -43,6 +43,17 @@ The choice ````do-what-it-says```` uses the fs Node package. LIRI will take the 
 It should run spotify-this-song for "I Want it That Way," as follows the text in random.txt
 
 DEMO
-![](ThisPC/Desktop/concert-this.gif)
+
+*concert-this*
+![](demos/concert-this.gif)
 
 
+*spotify-this*
+![](demos/spotify-this.gif)
+
+*movie-this*
+![](demos/movie-this.gif)
+
+
+*do-what-it-says*
+![](demos/do-what-it-says.gif)
