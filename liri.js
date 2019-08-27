@@ -12,7 +12,6 @@ var keys = require("./keys.js");
 var Spotify = require("node-spotify-api");
 var spotify = new Spotify(keys.spotify);
 
-
 // Giving the user options
 inquirer
     .prompt([
@@ -61,7 +60,7 @@ inquirer
                 })
         } else if (res.choice === "spotify-this-song") {
             console.log("\n=================");
-            console.log("Welcome");
+            console.log("\nWelcome");
             console.log("\n=================");
             //asking about Spotify
             inquirer
@@ -167,7 +166,7 @@ inquirer
         // OMDB movie-this
         else if (res.choice === "movie-this") {
             console.log("\n=================");
-            console.log("Welcome");
+            console.log("\nWelcome");
             console.log("\n=================");
             //asking about movie
             inquirer
@@ -222,7 +221,7 @@ inquirer
                                         console.log("Title of The Movie: " + response.data.Title);
                                         console.log("Year The Movie Came Out: " + response.data.Year);
                                         console.log("IMDB Rating of The Movie: " + response.data.imdbRating);
-                                        // console.log("Rotten Tomatoes Rating of The Movie: " + response.data.Ratings[1].Value);
+                                        console.log("Rotten Tomatoes Rating of The Movie: " + response.data.Ratings[1].Value);
                                         console.log("Country Where The Movie Was Produced: " + response.data.Country);
                                         console.log("Language  of The Movie: " + response.data.Language);
                                         console.log("Plot of The Movie: " + response.data.Plot);
