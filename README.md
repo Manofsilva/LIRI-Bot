@@ -45,14 +45,14 @@ It should run spotify-this-song for "I Want it That Way," as follows the text in
 DEMO
 
 *concert-this*
-![](demos/concert-this.gif)
+![](demos/Concert-This.gif)
 
 
 *spotify-this*
 ![](demos/spotify-this.gif)
 
 *movie-this*
-![](demos/movie-this.gif)
+![](demos/Movie-This.gif)
 
 
 *do-what-it-says*
