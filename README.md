@@ -1,6 +1,13 @@
 # LIRI-Bot
 
-This program uses a command line interface to fetch information about media for the user. It interfaces with Spotify, BandsInTown, and the Open Movie Database in order to give users simple bits of information from one of these APIs.
+This program uses a command line interface to fetch information about media for the user. It interfaces with the following in order to give users simple bits of information from one of these APIs:
+
+### Spotify
+
+### BandsInTown
+
+### Open Movie Database 
+
 
 To run the program, the user must execute ``` liri.js ``` in the command line whereupon they'll be given 4 prompts for them to choose:
 
